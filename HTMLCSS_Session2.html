@@ -16,6 +16,38 @@
         <li>Input</li>
     </ol>
     <h2>Creamos un formulario</h2>
+    <form action="/upgrade-form-test" method="post">
+        <fieldset>
+            <Legend>Datos</Legend>
+        <input type="text" name="Texto"/>
+        <input type="number" name="Numero"/>
+        <input type="date" name="Fecha"/>
+        <input type="time" name="Hora"/>
+    </fieldset>
+        <FIELDSET>Datos de Usuarios
+            <label> 
+                <p>Nombre de Usuario</p>
+                <input type="text" name="Nombre de usuario"></label>
+                
+        <label>
+            <p>Descripción</p>
+            <textarea name="Descripción" cols="30" rows="10"></textarea>
+        </label>
+        <button type="submit" name="Botón envío">Enviar Formulario</button>
+        <input type="color" name="color">
+        <input type="file" name="archivo" accept=".jpg">
+        <input type="hidden" name="Input Oculto" value="Este valor va oculto al usuario"><br>
+        <input type="image" name="imagen" width=50px src="https://thumbs.dreamstime.com/b/bot%C3%B3n-amarillo-127788249.jpg"><p>Este botón actúa como botón de envío</p>
+        <input type="month" name="mes">
+        <input type="password" name="Contraseña">
+        <input type="radio" name="test-radio" value="Es">
+        <input type="range" name="rango" min="100" max="2000">
+    </form>
+
+    <H2>Validaciones de inputs</H2>
+    <h3>Tenemos que validar si los usuarios introducen datos válidos. La validación de formularios HTML5 permite comprobar cada entrada de datos, tiene un gran rendimiento ya que es nativa. No es personalizable y nos tenemos que ajustar a usar los atributos y opciones por defecto: minlength, maxlength, min, max, step, required...</h3>
+    
+
 
 </body>
 </html>
